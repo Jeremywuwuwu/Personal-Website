@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS styles for the section */
+        .section {
+            font-family: 'Arial', sans-serif;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        .location-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .location-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .location-container .arizona-image {
+            margin-right: 20px; /* Adjust the margin as needed */
+        }
+    </style>
+
+    <title>Welcome to my journey</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to my Journey</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#travelling">Travelling</a></li>
+            <li><a href="#myexperience">My Experience</a></li>
+            <li><a href="#nba">NBA</a></li>
+            <li><a href="#blogs">Articles & Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="about-container">
+            <h2>About Me</h2>
+    
+            <div class="personal-info">
+                <h3><strong>Jeremy Wu</strong></h3>
+                <p class="subtitle">High School: Taipei European School</p>
+                <p class="subtitle">College: University of Washington - Undergraduate Senior</p>
+                <p class="subtitle">Major: Sociology | Minor: Informatics</p>
+                <p class="subtitle">Technical Skills: Microsoft Office Suite, R Studio, Github, Web Developer, Writing</p>
+            </div>
+    
+            <div class="interests">
+                <p><strong>Interests:</strong> Basketball, Weight Lifting, Sports</p>
+                <p><strong>Future Career Aspirations:</strong> Data Science, Business Management, Informatics, UI/UX</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience" class="section">
+        <h2>Professional Experience & Future Career Aspirations</h2>
+        <h3>This personal web application was developed through Figma Wire Framing, HTML5, and CSS.</h3>
+        <p>1. Digital Marketing and Sales Assistant at Shinn Fu Company of America</p>
+        <p>2. Intramurals Referee/Official for University of Washington</p>
+    </section>
+    
+    <style>
+        .section {
+            margin-left: 20px; 
+        }
+    
+        h2 {
+            color: purple;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    
+        .about-container {
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    
+        .personal-info,
+        .interests {
+            margin-bottom: 20px;
+        }
+    
+        .personal-info h3 {
+            color: rgb(42, 16, 87);
+            font-size: 1.45em;
+        }
+    
+        .subtitle {
+            color: #777;
+        }
+    
+        .interests p {
+            margin: 5px 0;
+        }
+    </style>
+
+</head>
+<body>
+    <section id="passion-for-travelling" class="section">
+        <h2>Travelling</h2>
+        <h3>My Passion for Travelling</h3>
+        <p>Exploring the world and experiencing diverse cultures has been a source of joy and inspiration in my life. My passion for travelling has taught me many lessons such as social norms, cultrural sensitivty/diversity, their cultural traditions, and breaking stereotypes. I was lucky enough to appreciate many different cultures and adapt to enhance my resilience, which has equipped me to not only navigate through unfamiliar situations, but also expose myself to new ideologies, religions, and ways of doing. Breaking stereotypes, specifically travelling to Europe and experiencing the European culture, allowed me to further enhance my understanding of the continent and their beliefs. I have developed habits that makes my life more convenient, but also helped me fit into the US when I first mvoed for colelge. Below are some of the amazing places I've had the privilege to visit</p>
+
+        <p><strong>Asia:</strong></p>
+        <ul>
+            <li class="location-container">
+                <div class="location-text">
+                Taiwan - Taipei City (Home Country)
+                </div>
+                <img src="pictures/Taiwan.jpg" alt="Home, Taipei City" width="250" height="350">
+            </li> China - Beijing, Shanghai, ShenZhen, Hong Kong City
+            <li>Japan - Okinawa, Hokkaido</li>
+            <li class="location-container">
+                <div class="location-text">
+                Thailand - Bangkok, Phuket, Pattaya
+            </div>
+                <img src="pictures/Phuket.jpg" alt="The majestic Phuket Beach" width="250" height="350">
+            </li>
+            <li class="location-container">
+                <div class="location-text">
+                South Korea - Seoul, Jeju
+            </div>
+                <img src="pictures/Jeju.JPG" alt="Underrated Jeju Island" width="350" height="250">
+            </li>
+            <li>Malaysia - Kota Kinabalu</li>
+            <li>Phillipines - Manilla</li>
+        </ul>
+
+        <p><strong>Europe:</strong></p>
+        <ul>
+            <li class="location-container">
+                <div class="location-text">
+                Netherlands - Amsterdam
+            </div>
+                <img src="pictures/Netherlands.JPG" alt="The European Sky" width="250" height="350">
+            </li>
+            <li>France - Paris</li>
+            <li>United Kingdom - London</li>
+            <li class="location-container">
+                <div class="location-text">
+                Belgium - Brussels
+            </div>
+                <img src="pictures/Belgium.JPG" alt="Boat in the middle of town as our mode of transportation" width="300" height="300">
+            </li>
+        </ul>
+
+        <p><strong>North America:</strong></p>
+        <ul>
+            <li class="location-container">
+                <div class="location-text">
+                United States Of America - Washington, California, Oregon, Hawaii, Arizona
+            </div>
+            <img class="arizona-image" src="pictures/Arizona.JPG" alt="Home, Taipei City" width="450" height="350">
+            <img src="pictures/Hawaii.JPG" alt="Home, Taipei City" width="230" height="350">
+            </li>
+            <li class="location-container">
+                <div class="location-text">
+                Canada - Vancouver BC, Toronto
+            </div>
+                <img src="pictures/Toronto.jpg" alt="The 6" width="250" height="350">
+            </li>
+            <li>Mexico - Cabos</li>
+        </ul>
+    </section>
+</body>
+</html>
+
+    <section id="myexperience" class="section">
+        <h2>My Experience</h2>
+        <h3>More about me and my journey of studying in America</h3>
+        <p>As an underrepresented international student at the University of Washington, my 4 years of experience has shaped me into becoming the person I am today. I was first born in Hong Kong and lived there for 10 years under the British government. Despite living in Asia, Hong Kong provided me a Westernized concept of living and lifestyle. After lower school, I returned back to Taiwan alongside my family and finished my middle and high school degree at a prestigious European international school under the International Baccalaureate system.</p>
+        <p>Despite being a minority and marginalized from opportunities in a new environment, I have developed a profound understanding of cultural diversity. I seek to use my dynamic background to find my passion in Data Science, Business Management/Entrepreneurship, Project Management, Informatics, and other Administrative works. I am committed to working in different states, not only subdue to Seattle, Washington. This would be an opportunity for me to explore more parts of America, enjoy my hobby of traveling, and learn more about different culture within the US.</p>
+    </section>
+
+    <section id="nba" class="section">
+        <h2>National Basketball Association</h2>
+        <h3>NBA database management and analysis</h3>
+        <p>Passionate about watching NBA for entertainment, but also analyzing NBA data for efficiency and knowledge on the sport.</p>
+    </section>
+
+    <section id="blogs" class="section">
+    <body>    
+        <h2>Contemporary/Significant Articles & Blogs</h2>
+        <article>
+            <h1>Your Blog Post Title</h1>
+            
+            <p>Published on: <time datetime="2023-12-01">December 1, 2023</time></p>
+    
+            <p>This is the introduction or summary of your blog post.</p>
+    
+            <p>Here's the main content of your article. You can use paragraphs, headings, lists, and other HTML elements to structure your content.</p>
+            <p>Author: Your Name</p>
+        </article>
+        <h3>Other articles to read</h3>    
+        <p><a href="https://www.theverge.com/2019/5/2/18518176/boeing-737-max-crash-problems-human-error-mcas-faa" target="_blank">Human Error in 737MAX</a></p>
+        <p><a href="https://dl.acm.org/doi/10.1145/3442188.3445922" target="_blank">Can Language Models Be Too Big</a></p>
+        <p><a href="https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/" target="_blank">OpenAI and its potentials</a></p>
+        <p><a href="https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html?unlocked_article_code=1.Bk0.q2R0.s_2n5eYCcveY&smid=url-share" target="_blank">Is AI evil?</a></p>
+    </body>   
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:jeremywuwuwu@gmail.com">jeremywuwuwu@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jeremy Wu. All rights reserved.</p>
+    </footer>
+
+</html>
