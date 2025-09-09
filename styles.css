@@ -6,16 +6,32 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #512da8;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    margin-bottom: 20px;
+header { 
+    background: url('header.jpeg') center/cover no-repeat; /* if you’re using an image */
+    color: rgba(149, 120, 216, 0.802); 
+    text-align: center; 
+    padding: 0.9em 0;   /* reduced padding top/bottom */
+    margin-bottom: 5px; /* tighter spacing below */
 }
 
+header h1 {
+    font-size: 2rem; /* adjust size (2rem ≈ 32px) */
+    line-height: 1.2; /* keeps it compact vertically */
+    margin: 0; /* removes default margins */
+    background: linear-gradient(90deg, #bc9ce3, #6002ac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 6px rgb(255, 255, 255); /* makes it pop */
+}
+
+/* Modern nav bar */
 nav {
-    background-color: #673ab7;
+    background: linear-gradient(90deg, #512da8, #7e57c2); /* smooth gradient */
+    padding: 0.8em 0;
+    box-shadow: 0 2px 8px rgba(254, 254, 254, 0.503); /* subtle shadow for depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -23,23 +39,46 @@ nav ul {
     padding: 0;
     margin: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* spacing between items */
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: #f5f5f5; /* off-white instead of pure white */
+    font-weight: 600;
     font-size: 18px;
+    position: relative;
     transition: color 0.3s ease-in-out;
 }
 
+/* Modern hover underline animation */
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #0fb8e7; /* accent color */
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
 nav a:hover {
-    color: #ff8707;
+    color: #ffca28;
+}
+
+nav a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #ffca28;
 }
 
 .section {
