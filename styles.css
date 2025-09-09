@@ -72,13 +72,13 @@ nav a::after {
 }
 
 nav a:hover {
-    color: #ffca28;
+    color: #3c9ff0;
 }
 
 nav a:hover::after {
     width: 100%;
     left: 0;
-    background: #ffca28;
+    background: #ffffff;
 }
 
 .section {
